@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Github Clone</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css"
+      integrity="sha512-oXqkIy/+iqrHrpoTwFkSLZJpNwoYn9e77QtCNzBi+Jb6uJgTtcdHVy0C+nEpeUfC3fxSbydPxLG+ndikNVvrdQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav px-3">
+        <div class="nav__left">
+          <div class="nav__logo">
+            <i class="bi bi-github" style="font-size: 32px; color: #fff"></i>
+          </div>
+          <ul class="nav__list">
+            <li>
+              <a href=""
+                ><span> Product </span>
+                <i class="fa fa-duotone fa-angle-down"></i
+              ></a>
+              <div class="dropdown_menu">
+                <ul class="dropdown_list-1 border-right">
+                  <li>
+                    <h4>Actions</h4>
+                    Automate any workflow
+                  </li>
+                  <li>
+                    <h4>packages</h4>
+                    Host and manage packages
+                  </li>
+                  <li>
+                    <h4>Security</h4>
+                    Find and fix vulnerabilities
+                  </li>
+                  <li>
+                    <h4>Codespaces</h4>
+                    Instant dev environments
+                  </li>
+                  <li>
+                    <h4>Copilot</h4>
+                    Write better code with AI
+                  </li>
+                  <li>
+                    <h4>Code a review</h4>
+                    Manage code changes
+                  </li>
+                  <li>
+                    <h4>Issues</h4>
+                    Plan and track work
+                  </li>
+                  <li>
+                    <h4>Discussions</h4>
+                    Collaborate outside of code
+                  </li>
+                </ul>
+
+                <ul class="dropdown_list-2">
+                  <li style="color: #000; font-weight: 700">Explore</li>
+                  <li>All features</li>
+                  <li>Documents</li>
+                  <li>Github Skills</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span> Solutions </span>
+                <i class="fa fa-light fa-angle-down"></i
+              ></a>
+              <div class="dropdown_menu flex w-300">
+                <ul class="dropdown_list-1 border-bottom">
+                  <li>
+                    <h4>For</h4>
+                  </li>
+                  <li>Enterprise</li>
+                  <li>Teams</li>
+                  <li>Startups</li>
+                  <li>Education</li>
+                </ul>
+                <ul class="dropdown_list-1 border-bottom">
+                  <li>
+                    <h4>By Solution</h4>
+                  </li>
+                  <li>CI/CD & Automation</li>
+                  <li>DevOps</li>
+                  <li>DevSecOps</li>
+                </ul>
+                <ul class="dropdown_list-1">
+                  <li>
+                    <h4>Case Studies</h4>
+                  </li>
+                  <li>Customer Stories</li>
+                  <li>Resources</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span> Open Source </span>
+                <i class="fa fa-light fa-angle-down"></i
+              ></a>
+              <div class="dropdown_menu flex w-300">
+                <div class="dropdown_list-1 border-bottom">
+                  <h4>Github Sponsors</h4>
+                  <p>Fund open source developers</p>
+                </div>
+                <div class="dropdown_list-1 border-bottom">
+                  <h4>The ReadME Project</h4>
+                  <p>GitHub community articles</p>
+                </div>
+                <ul class="dropdown_list-1">
+                  <li>
+                    <h4>Repositories</h4>
+                  </li>
+                  <li>Topics</li>
+                  <li>Trending</li>
+                  <li>Collections</li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="nav__right">
+          <div class="search__field">
+            <input type="text" placeholder="Search Github" />
+            <span>/</span>
+          </div>
+          <button class="signin">Sign in</button>
+          <button class="signup">Sign up</button>
+        </div>
+
+        <div class="nav_mobile">
+          <button class="signup">Sign up</button>
+          <div class="nav__logo">
+            <i class="bi bi-github" style="font-size: 32px; color: #fff"></i>
+          </div>
+          <div class="hamburger_bar">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="menu__list">
+            <div class="menu__item">
+              <h5>Product</h5>
+              <i
+                class="fa-solid fa-chevron-right"
+                style="color: gray; font-size: 15px"
+              ></i>
+            </div>
+            <div class="menu__item">
+              <h5>Solutions</h5>
+              <i
+                class="fa-solid fa-chevron-right"
+                style="color: gray; font-size: 15px"
+              ></i>
+            </div>
+            <div class="menu__item">
+              <h5>Open Source</h5>
+              <i
+                class="fa-solid fa-chevron-right"
+                style="color: gray; font-size: 15px"
+              ></i>
+            </div>
+            <div class="menu__item">
+              <h5>Pricing</h5>
+            </div>
+          </div>
+          <div class="search">
+            <div class="search__field">
+              <input
+                type="text"
+                placeholder="Search Github"
+                style="background-color: rgb(236, 236, 236)"
+              />
+            </div>
+            <button>Sign in</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <button class="copilot">
+          <div class="copilot_content">
+            <h6>Introducing GitHub Copilot X</h6>
+            <p>Your AI pair programmer is leveling up</p>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-chevron-right"
+              style="color: gray; font-size: 15px"
+            ></i>
+            <i
+              class="fa fa-solid fa-arrow-right"
+              style="color: gray; font-size: 15px"
+            ></i>
+          </div>
+        </button>
+
+        <div class="hero__section">
+          <h1>Let’s build from here</h1>
+          <p>
+            Harnessed for productivity. Designed for collaboration. Celebrated
+            for built-in security. Welcome to the platform developers love.
+          </p>
+        </div>
+
+        <div class="cta">
+          <div class="cta__input">
+            <input type="text" placeholder="Email address" />
+            <button>Sign up for Github</button>
+          </div>
+          <div class="divider"></div>
+          <div class="cta_content">
+            Start a free enterprise trial
+            <div>
+              <i
+                class="fa-solid fa-chevron-right"
+                style="color: gray; font-size: 15px"
+              ></i>
+              <i
+                class="fa fa-solid fa-arrow-right"
+                style="color: gray; font-size: 15px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="para">
+        <ul>
+          <li>
+            <sup id="footnote-1">1</sup>
+            The Total Economic Impact™ Of GitHub Enterprise Cloud and Advanced
+            Security, a commissioned study conducted by Forrester Consulting,
+            2022. Results are for a composite organization based on interviewed
+            customers.
+          </li>
+          <li>
+            <sup id="footnote-1">2</sup>
+            GitHub, Octoverse 2022 The state of open source software.
+          </li>
+        </ul>
+      </div>
+
+      <div class="newsletter__section">
+        <div class="git_newsletter">
+          <h1>GitHub</h1>
+          <div>
+            <p>Subscribe to our newsletter</p>
+            <p>Get product updates, company news, and more.</p>
+          </div>
+          <button class="newsletter_btn">Subscribe</button>
+        </div>
+
+        <div class="info__link">
+          <ul>
+            <li>Product</li>
+            <li>Features</li>
+            <li>Security</li>
+            <li>Team</li>
+            <li>Enterprise</li>
+            <li>Customer stories</li>
+            <li>The ReadME Project</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Roadmap</li>
+          </ul>
+          <ul>
+            <li>Product</li>
+            <li>Features</li>
+            <li>Security</li>
+            <li>Team</li>
+            <li>Enterprise</li>
+            <li>Customer stories</li>
+            <li>The ReadME Project</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Roadmap</li>
+          </ul>
+          <ul>
+            <li>Product</li>
+            <li>Features</li>
+            <li>Security</li>
+            <li>Team</li>
+            <li>Enterprise</li>
+            <li>Customer stories</li>
+            <li>The ReadME Project</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Roadmap</li>
+          </ul>
+          <ul>
+            <li>Product</li>
+            <li>Features</li>
+            <li>Security</li>
+            <li>Team</li>
+            <li>Enterprise</li>
+            <li>Customer stories</li>
+            <li>The ReadME Project</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Roadmap</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="social__section">
+        <ul>
+          <li>© 2023 GitHub, Inc.</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Updated 08/2022</li>
+          <li>Sitemap</li>
+          <li>What is Git?</li>
+        </ul>
+        <div class="social__icon">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitch"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
