@@ -651,4 +651,8 @@ footer .social__icon i {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
+  .menu {
+    top: 4rem;
+    right: 1rem;
+  }
 }
