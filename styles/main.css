@@ -82,6 +82,7 @@ body {
 }
 
 .dropdown_menu {
+  z-index: 999;
   margin-top: 0.5rem;
   width: 500px;
   font-family: inherit;
@@ -713,13 +714,38 @@ footer .social__icon i {
   color: #7ee787;
 }
 
-@media (max-width: 450px) {
+.section-1-cta {
+  margin-bottom: 4rem;
+}
+.section-1-cta h3 {
+  color: #6e7681;
+}
+.section-1-cta span {
+  color: #fff;
+}
+
+.section-1-cta button {
+  background-color: transparent;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #fff;
+}
+.section-1-cta button:hover {
+}
+
+@media (max-width: 500px) {
   main {
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
   }
   .hero__section h1 {
     font-size: 3.5rem !important;
     line-height: 60px !important;
+  }
+  .productivity {
+    font-size: 2rem;
   }
 
   .hero__section p {
@@ -745,5 +771,6 @@ footer .social__icon i {
   .menu {
     top: 4rem;
     right: 1rem;
+    z-index: 999;
   }
 }
